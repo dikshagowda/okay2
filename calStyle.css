@@ -1,0 +1,15 @@
+/*Set the table color, border, and spacing*/
+table.cal {
+	color: #06425C;
+	border-spacing: 0;/*space b/w the border elements and body*/
+	border:3px solid black;
+	                                    /*bottom no curve*/
+	/*-webkit-border-radius:25px 25px 0 0; */                       /*curve on the border on top*/
+    /*border-radius: 0 0 25px 25px;*/                               /*curve on the border in bottom*/
+                                        /*top no curve*/
+}
+
+/*Alternate colors b/w even and odd*/
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
